@@ -10,7 +10,7 @@ export default function Home() {
   const services = [
     {
       icon: Building2,
-      title: 'Gestión Empresarial',
+      title: 'Gestion empresarial inteligente',
       description: 'Soluciones completas para la administración de tu empresa',
     },
     {
@@ -59,12 +59,12 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
-              Gestión Empresarial
+              Metropolis
               <br />
-              <span className="text-accent">Inteligente</span>
+              <span className="text-accent">SRL</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto">
-              Optimiza tus procesos y toma decisiones basadas en datos con nuestra plataforma integral
+              Luis es el mejor empleado que puede haber claro que si
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/login">
